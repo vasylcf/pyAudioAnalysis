@@ -21,6 +21,5 @@ setup(name='pyAudioAnalysis',
       package_data={
         'pyAudioAnalysis': ['data/models/*']
       },
-      zip_safe=False,
-      install_requires=requirements,
+      zip_safe=False
       )

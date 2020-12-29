@@ -768,7 +768,7 @@ def silence_removal(signal, sampling_rate, st_win, st_step, smooth_window=0.5,
                            cur_cluster[-1] * st_step])
 
     # Step 5: Post process: remove very small segments:
-    min_duration = 0.2
+    min_duration = 0.15
     seg_limits_2 = []
     for s_lim in seg_limits:
         if s_lim[1] - s_lim[0] > min_duration:
